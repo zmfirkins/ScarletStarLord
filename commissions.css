@@ -103,7 +103,27 @@
   transform: scale(1.15) rotate(-5deg);
   box-shadow: 0 0 20px rgba(213, 138, 226, 0.8);
 }
+/* Contact Icons Container */
+.contact-icons-container {
+  text-align: center;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.contact-icon:hover {
+  transform: scale(1.15) rotate(-5deg);
+  box-shadow: 0 0 20px rgba(213, 138, 226, 0.8);
+}
 /* Price Categories */
 .price-category {
   margin: 20px 0;
@@ -256,6 +276,14 @@
   .discord-icon {
     width: 50px;
     height: 50px;
+  }
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-icons-container {
+    gap: 15px;
   }
 
   .gallery-column .photo-scroll-container {
